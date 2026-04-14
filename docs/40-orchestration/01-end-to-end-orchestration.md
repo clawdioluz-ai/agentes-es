@@ -125,6 +125,34 @@ Todo handoff deve ser tratado como uma transição formal entre estados de traba
 ### Proposta conceitual
 Abaixo está um macrofluxo conceitual de referência.
 
+## Diagrama conceitual, fluxo ponta a ponta
+
+```mermaid
+flowchart LR
+    A[1. Intenção e qualificação] --> B[2. Requisitos e planejamento]
+    B --> C[3. Arquitetura e desenho]
+    C --> D[4. Implementação]
+    D --> E[5. Verificação]
+    E --> F[6. Build, integração e release readiness]
+    F --> G[7. Deploy e operação]
+    G --> H[8. Aprendizado e retroalimentação]
+    H --> B
+
+    A -. ambiguidade material .-> X[Checkpoint humano]
+    C -. decisão de alto impacto .-> X
+    E -. baixa confiança ou conflito .-> X
+    F -. risco, compliance ou release crítico .-> X
+    G -. degradação ou incidente .-> X
+    X --> B
+
+    E -. falha de validação .-> D
+    F -. evidência insuficiente .-> E
+```
+
+### Leitura do diagrama
+#### Proposta conceitual
+O fluxo não é linear no sentido rígido. Ele combina progressão principal, retornos por falha de validação e checkpoints humanos disparados por risco, ambiguidade, conflito ou baixa confiança.
+
 ### 1. Intenção e qualificação
 **Entrada**: demanda inicial, restrições, urgência, stakeholders.  
 **Saída**: brief qualificado, escopo, criticidade, critérios de sucesso.  

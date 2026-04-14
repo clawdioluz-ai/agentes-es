@@ -90,6 +90,33 @@ Cada decisão material do fluxo deve carregar nível de confiança, base de evid
 
 ## Modelo conceitual de control plane
 
+## Diagrama conceitual, interação entre control plane e runtimes
+
+```mermaid
+flowchart TB
+    U[Demanda ou evento do SDLC] --> CP[Control plane]
+    CP --> P[Planejamento do fluxo\nobjetivo, risco, contratos]
+    P --> WF[Workflow backbone\nestado, waits, retries, joins]
+    WF --> AR[Runtime de especialistas]
+    AR --> T[Tools e superfícies do SDLC]
+    T --> AR
+    AR --> WF
+    WF --> CP
+
+    CP <--> CTX[Camada de contexto\ncódigo, docs, tickets, histórico]
+    CP <--> POL[Políticas e approvals\nalçadas, segregação, exceções]
+    CP <--> OBS[Observabilidade e evidência\ntraces, audit log, métricas]
+
+    POL --> WF
+    CTX --> AR
+    OBS <-->|telemetria e trilha| WF
+    OBS <-->|execução e uso de ferramentas| AR
+```
+
+### Leitura do diagrama
+#### Proposta conceitual
+A interação correta não é “agente no centro chamando tudo”. O control plane classifica e governa, o workflow backbone preserva a durabilidade operacional, e o runtime especializado executa dentro de contratos e limites explícitos.
+
 ### Proposta conceitual
 Um control plane robusto deve manter, para cada fluxo:
 - intenção original

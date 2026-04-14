@@ -1,5 +1,27 @@
 # Governança, segurança, qualidade e métricas
 
+## Diagrama conceitual, loop de policy, approval e observabilidade
+
+```mermaid
+flowchart LR
+    A[Fluxo ou ação proposta] --> B[Classificação de risco\nimpacto, reversibilidade, sensibilidade]
+    B --> C[Policy engine\nregras, restrições, alçadas]
+    C --> D{Pode seguir\nautonomamente?}
+    D -- Sim --> E[Execução governada]
+    D -- Não --> F[Checkpoint ou approval humano]
+    F --> G{Aprovado?}
+    G -- Sim --> E
+    G -- Não --> H[Rejeição, ajuste ou escalonamento]
+    E --> I[Observabilidade e evidência\nlogs, traces, métricas, auditoria]
+    I --> J[Avaliação de resultado\nqualidade, risco, conformidade]
+    J --> K[Ajuste de policy, thresholds e controles]
+    K --> C
+    H --> I
+```
+
+### Leitura do diagrama
+O loop de governança não termina na aprovação. Policy, aprovação, execução observável e recalibração precisam formar um circuito contínuo, para que o sistema aprenda sem perder controle.
+
 ## Governança
 A governança deve cobrir:
 - policies de autonomia

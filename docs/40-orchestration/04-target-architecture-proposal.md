@@ -36,6 +36,34 @@ Portanto, a arquitetura-alvo deve partir de cinco premissas:
 
 ## Arquitetura-alvo em oito camadas
 
+## Diagrama conceitual, arquitetura em camadas
+
+```mermaid
+flowchart TB
+    A[Superfícies de entrada e operação\nchat, issues, PRs, pipelines, APIs] --> B[Control plane\nidentidade do fluxo, estado, políticas, decisões]
+    B --> C[Backbone de workflow durável\nwaits, retries, branching, compensação]
+    C --> D[Runtime de especialistas\nplanejar, analisar, implementar, verificar]
+    D --> E[Ferramentas e sistemas do SDLC\ngit, CI/CD, testes, docs, cloud]
+
+    B <--> F[Contexto e memória governada\nestado operacional, retrieval, memória institucional]
+    B <--> G[Policy e approval fabric\nsegregação, alçadas, checkpoints humanos]
+    B <--> H[Observabilidade, evidência e avaliação\ntraces, métricas, auditoria, aprendizado]
+    E --> H
+    F --> D
+    G --> C
+
+    classDef cp fill:#eef6ff,stroke:#336699,color:#111;
+    classDef gov fill:#f6f1ff,stroke:#6b46c1,color:#111;
+    classDef ops fill:#eefbf3,stroke:#2f855a,color:#111;
+    class B,C cp;
+    class F,G,H gov;
+    class A,D,E ops;
+```
+
+### Leitura do diagrama
+#### Proposta conceitual
+O desenho deixa explícito que o runtime agentic não ocupa o centro administrativo da plataforma. O eixo do sistema é o control plane, apoiado por um backbone durável e cercado por capacidades transversais de contexto, policy, approval, observabilidade e evidência.
+
 ## 1. Camada de experiência e superfícies operacionais
 ### Proposta conceitual
 É a camada onde usuários, times e sistemas iniciam, observam e intervêm nos fluxos.

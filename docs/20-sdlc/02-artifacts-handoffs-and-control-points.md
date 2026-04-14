@@ -29,6 +29,28 @@ O objeto central de coordenação não é a conversa com o modelo, mas o handoff
 - GitLab posiciona merge requests, approvals, telemetry e SBOMs como parte do control plane de entrega. Fonte: GitLab Blog, 2026, https://about.gitlab.com/blog/agentic-sdlc-gitlab-and-tcs-deliver-intelligent-orchestration-across-the-enterprise/
 - Atlassian conecta o agente a Jira, Confluence e Bitbucket, o que reforça que ticket, documentação e código precisam circular juntos. Fonte: Atlassian Blog, 2026, https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface
 
+## Diagrama conceitual, handoffs, contratos e artefatos
+
+```mermaid
+flowchart LR
+    A[Etapa origem\nex.: requisitos] --> B[Artefatos de entrada\nbrief, backlog, contexto, restrições]
+    B --> C[Especialista executante\ntransformação autorizada]
+    C --> D[Artefatos de saída\nADR, diff, testes, plano, relatório]
+    D --> E[Próxima etapa ou especialista]
+
+    C -. consulta .-> F[Contrato da etapa\nobjetivo, escopo, autonomia, critérios]
+    C -. deve atender .-> G[Políticas aplicáveis\nsegurança, compliance, risco]
+    C -. registra .-> H[Evidência\nfontes, testes, justificativas, confiança]
+    H --> I[Checkpoint, aceitação ou escalonamento]
+    G --> I
+    F --> I
+    I --> E
+```
+
+### Leitura do diagrama
+#### Proposta conceitual
+O handoff só é confiável quando a transformação entre artefatos é mediada por contrato, policy e evidência. Sem esse tripé, a passagem entre etapas vira contexto conversacional implícito.
+
 ## Contrato mínimo de handoff
 ### Proposta conceitual
 Cada transição entre especialistas ou etapas deve conter:
