@@ -37,6 +37,7 @@ Esta fase é de análise, estrutura conceitual, taxonomia, arquitetura, governan
 - [`docs/70-references/`](docs/70-references/) bibliografia comentada e lista curta de referências principais
 - [`docs/80-meta/`](docs/80-meta/) distinção entre fato, inferência, proposta, guia do repositório e histórico consolidado
 - [`docs/90-adrs/`](docs/90-adrs/) registro curto das decisões arquiteturais e de produto mais estruturantes para a próxima fase
+- [`docs/100-software-design/`](docs/100-software-design/) pacote inicial de artefatos de design para traduzir a pesquisa em documentação arquitetural da próxima fase
 
 ## Foco analítico obrigatório
 - orquestração fim a fim
@@ -90,3 +91,4 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - **Entender a visão de produto e mission control**: [`docs/40-orchestration/08-mission-control-product-experience.md`](docs/40-orchestration/08-mission-control-product-experience.md) e [`docs/40-orchestration/09-orchestration-platform-conceptual-prd.md`](docs/40-orchestration/09-orchestration-platform-conceptual-prd.md)
 - **Ver decisões estruturantes já cristalizadas**: [`docs/90-adrs/README.md`](docs/90-adrs/README.md)
 - **Entender a lógica do pacote e seu histórico editorial**: [`docs/80-meta/02-repository-guide-and-history.md`](docs/80-meta/02-repository-guide-and-history.md)
+- **Entrar na ponte entre pesquisa e design de software**: [`docs/100-software-design/README.md`](docs/100-software-design/README.md)
