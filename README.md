@@ -46,9 +46,16 @@ Esta fase é de análise, estrutura conceitual, taxonomia, arquitetura, governan
 - base suficiente para futura fase de desenho e implementação
 
 ## Status
-Repositório agora contém uma primeira base de pesquisa estruturada e source-backed sobre orquestração ponta a ponta do SDLC com IA generativa. O conteúdo desta fase permanece conceitual e analítico.
+Repositório agora contém uma base de pesquisa estruturada, source-backed e reforçada em segunda rodada sobre orquestração ponta a ponta do SDLC com IA generativa. O conteúdo desta fase permanece conceitual e analítico.
 
-## Documentos adicionados nesta etapa
+## Documentos reforçados nesta etapa
+- `docs/10-benchmarking/01-enterprise-benchmarking.md`
+- `docs/30-framework/01-consolidated-framework-proposal.md`
+- `docs/40-orchestration/01-end-to-end-orchestration.md`
+- `docs/70-references/01-commented-bibliography.md`
+- `docs/80-meta/01-evidence-model.md`
+
+## Documentos adicionados ou aprofundados anteriormente
 - `docs/10-benchmarking/03-source-backed-patterns.md`
 - `docs/20-sdlc/02-artifacts-handoffs-and-control-points.md`
 - `docs/40-orchestration/02-operating-models-and-control-plane.md`
