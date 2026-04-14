@@ -55,6 +55,15 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 - `docs/90-adrs/ADR-006-evidence-and-auditability-first-class.md` torna evidência e auditabilidade preocupações centrais.
 - `docs/90-adrs/ADR-007-ui-as-mission-control.md` posiciona a UI como cockpit operacional, não apenas chat.
 
+### 9. Software design como ponte para a próxima fase
+- `docs/100-software-design/README.md` abre a nova seção orientada a artefatos de design.
+- `docs/100-software-design/01-design-artifact-stack.md` define a pilha recomendada de artefatos e a ordem sugerida de produção.
+- `docs/100-software-design/02-system-context-and-boundaries.md` delimita núcleo próprio, bordas pluggable e ecossistema externo.
+- `docs/100-software-design/03-views-and-viewpoints.md` organiza as visões mínimas para arquitetura, operação e governança.
+- `docs/100-software-design/04-quality-attribute-scenarios.md` transforma princípios em cenários de qualidade orientadores.
+- `docs/100-software-design/05-conceptual-domain-model.md` consolida o modelo conceitual orientado a missão, fluxo, decisão e evidência.
+- `docs/100-software-design/06-decision-backlog.md` explicita as decisões já firmes e as decisões ainda abertas da próxima fase.
+
 ## Leitura recomendada em cinco passos
 1. Ler o resumo executivo e o guia de decisão.
 2. Ler benchmarking, padrões source-backed e metodologia.
@@ -77,6 +86,7 @@ README.md
   /70-references
   /80-meta
   /90-adrs
+  /100-software-design
 ```
 
 ## Histórico consolidado desta fase
@@ -123,6 +133,9 @@ Este histórico resume os commits editoriais mais relevantes para o pacote atual
 13. **b397f4b - docs: add initial strategic ADR set**  
    Inclusão de um conjunto inicial de ADRs conceituais para fixar as decisões mais estruturantes já implicadas pela pesquisa, cobrindo postura control-plane-first, modelo mission-workflow-task, governança human-in-the-loop, estratégia composicional de stack, runtimes especialistas pluggable, evidência e auditabilidade como preocupações de primeira classe e UI como mission control.
 
+14. **42250a5 - docs: add software design documentation scaffold**  
+   Inclusão de uma nova seção `docs/100-software-design/` como ponte entre a pesquisa consolidada e a próxima fase de desenho de software, com um pacote inicial de artefatos para contexto, visões, qualidade, domínio conceitual e backlog decisório.
+
 ## Resultado final do pacote
 ### Inferência
-O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão, o roadmap fortalecido, a nova camada de modelo de gestão do trabalho e mission control, a visão mais orientada à experiência de produto da interface, o PRD conceitual consolidando a visão do produto e agora o conjunto inicial de ADRs estratégicas, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de operação humana e definição de produto, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
+O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão, o roadmap fortalecido, a nova camada de modelo de gestão do trabalho e mission control, a visão mais orientada à experiência de produto da interface, o PRD conceitual consolidando a visão do produto, o conjunto inicial de ADRs estratégicas e agora a nova seção de software design como ponte editorial para a próxima fase, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de operação humana e definição de produto, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.

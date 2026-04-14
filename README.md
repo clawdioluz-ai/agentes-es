@@ -39,6 +39,7 @@ Esta fase é de análise, estrutura conceitual, taxonomia, arquitetura, governan
 - [`docs/90-adrs/`](docs/90-adrs/) registro curto das decisões arquiteturais e de produto mais estruturantes para a próxima fase
 - [`docs/100-software-design/`](docs/100-software-design/) pacote inicial de artefatos de design para traduzir a pesquisa em documentação arquitetural da próxima fase
 
+
 ## Foco analítico obrigatório
 - orquestração fim a fim
 - separação entre agentes especialistas e orquestrador
@@ -73,6 +74,11 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - [`docs/90-adrs/ADR-005-pluggable-specialist-runtimes.md`](docs/90-adrs/ADR-005-pluggable-specialist-runtimes.md)
 - [`docs/90-adrs/ADR-006-evidence-and-auditability-first-class.md`](docs/90-adrs/ADR-006-evidence-and-auditability-first-class.md)
 - [`docs/90-adrs/ADR-007-ui-as-mission-control.md`](docs/90-adrs/ADR-007-ui-as-mission-control.md)
+- [`docs/100-software-design/01-design-artifact-stack.md`](docs/100-software-design/01-design-artifact-stack.md)
+- [`docs/100-software-design/03-views-and-viewpoints.md`](docs/100-software-design/03-views-and-viewpoints.md)
+- [`docs/100-software-design/04-quality-attribute-scenarios.md`](docs/100-software-design/04-quality-attribute-scenarios.md)
+- [`docs/100-software-design/05-conceptual-domain-model.md`](docs/100-software-design/05-conceptual-domain-model.md)
+- [`docs/100-software-design/06-decision-backlog.md`](docs/100-software-design/06-decision-backlog.md)
 
 ## Ordem de leitura recomendada
 1. resumo executivo e guia de decisão
