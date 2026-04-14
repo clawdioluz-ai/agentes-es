@@ -25,6 +25,8 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 ### 5. Orquestração e control plane
 - `docs/40-orchestration/01-end-to-end-orchestration.md` define a disciplina de coordenação fim a fim.
 - `docs/40-orchestration/02-operating-models-and-control-plane.md` posiciona o control plane e suas camadas.
+- `docs/40-orchestration/03-platform-building-landscape.md` compara blocos de mercado, frameworks e tradeoffs de composição.
+- `docs/40-orchestration/04-target-architecture-proposal.md` propõe a arquitetura-alvo recomendada para uma plataforma de orquestração agentic orientada a software delivery.
 
 ### 6. Governança, medição e roadmap
 - `docs/50-governance/01-governance-security-quality-metrics.md` consolida controles, qualidade e risco.
@@ -76,6 +78,9 @@ README.md
 5. **ec8b0a8 - Strengthen framework orchestration and evidence model**  
    Consolidação do framework, refinamento dos documentos de orquestração e explicitação do modelo de evidência.
 
+6. **c6df77a - Add target architecture proposal for orchestration platform**  
+   Inclusão de uma proposta de arquitetura-alvo centrada em control plane, workflow backbone, runtimes subordinados, memória governada, policy/approval fabric, observabilidade, extensibilidade e tradeoffs de build versus compose.
+
 ## Resultado final do pacote
 ### Inferência
-O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
+O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o pacote também passa a apoiar decisões de platform architecture com mais nitidez, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.

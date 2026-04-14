@@ -54,6 +54,7 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/40-orchestration/01-end-to-end-orchestration.md`
 - `docs/40-orchestration/02-operating-models-and-control-plane.md`
 - `docs/40-orchestration/03-platform-building-landscape.md`
+- `docs/40-orchestration/04-target-architecture-proposal.md`
 - `docs/70-references/02-main-references.md`
 - `docs/80-meta/02-repository-guide-and-history.md`
 
@@ -68,6 +69,7 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/10-benchmarking/01-enterprise-benchmarking.md`
 - `docs/30-framework/01-consolidated-framework-proposal.md`
 - `docs/40-orchestration/01-end-to-end-orchestration.md`
+- `docs/40-orchestration/04-target-architecture-proposal.md`
 - `docs/70-references/01-commented-bibliography.md`
 - `docs/80-meta/01-evidence-model.md`
 
