@@ -102,10 +102,37 @@ Um control plane robusto deve manter, para cada fluxo:
 - métricas de custo, tempo, risco e retrabalho
 - estado atual do fluxo
 
+## Objetos mínimos do control plane
+
+### Proposta conceitual
+Para que a orquestração seja auditável e reutilizável, o control plane deve tratar como objetos mínimos de primeira classe:
+- fluxo
+- etapa
+- contrato
+- handoff
+- artefato
+- evidência
+- política
+- decisão
+- exceção
+- checkpoint humano
+- estado
+
+### Inferência
+Sem esse núcleo mínimo, a organização tende a voltar para coordenação conversacional difusa, baixa comparabilidade entre fluxos e pouca capacidade de auditoria transversal.
+
 ## Tensão central
 ### Inferência
 A principal tensão não está entre automação e manualidade, mas entre velocidade local e governança sistêmica. Ferramentas otimizadas para acelerar uma etapa podem degradar o sistema total se quebrarem contexto, rastreabilidade ou qualidade dos handoffs.
 
+## Critério de qualidade do operating model
+### Proposta conceitual
+Um operating model de boa qualidade, nesta linha de pesquisa, é aquele que consegue ao mesmo tempo:
+- acelerar etapas locais sem perder rastreabilidade sistêmica
+- modular especialistas sem quebrar contexto e contratos
+- aumentar autonomia apenas quando o risco e a reversibilidade permitirem
+- preservar governança mesmo quando múltiplos especialistas atuarem em paralelo
+
 ## Conclusão
 ### Proposta conceitual
-O framework futuro deve ser orientado a control plane. Especialistas são substituíveis; contratos, evidência, políticas e contexto compartilhado não são.
+O framework futuro deve ser orientado a control plane. Especialistas são substituíveis, contratos, evidência, políticas e contexto compartilhado não são.
