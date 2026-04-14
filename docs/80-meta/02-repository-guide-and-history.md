@@ -28,6 +28,7 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 - `docs/40-orchestration/03-platform-building-landscape.md` compara blocos de mercado, frameworks e tradeoffs de composição.
 - `docs/40-orchestration/04-target-architecture-proposal.md` propõe a arquitetura-alvo recomendada para uma plataforma de orquestração agentic orientada a software delivery.
 - `docs/40-orchestration/05-platform-stack-decision.md` compara opções viáveis de stack e fecha com uma recomendação explícita de direção arquitetural.
+- `docs/40-orchestration/06-platform-blueprint.md` transforma a pesquisa e a decisão de stack em uma north star unificada de produto e plataforma, deixando claro o que é obrigatório, o que é opcional, o que deve permanecer pluggable e em que sequência a plataforma deve evoluir.
 
 ### 6. Governança, medição e roadmap
 - `docs/50-governance/01-governance-security-quality-metrics.md` consolida controles, qualidade e risco.
@@ -85,6 +86,9 @@ README.md
 7. **90d5046 - Add stack decision brief for orchestration platform**  
    Inclusão de um documento decisório comparando opções de stack composicionais e mais centradas em frameworks de agentes, com recomendação final em favor de uma direção control-plane-first.
 
+8. **Pending new commit - Add north star platform blueprint**  
+   Inclusão de um blueprint final que conecta pesquisa, arquitetura-alvo e decisão de stack em uma visão north star de produto e plataforma, com componentes obrigatórios, componentes opcionais, princípios de desenho, blocos pluggable e sequência recomendada de evolução.
+
 ## Resultado final do pacote
 ### Inferência
-O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo e o novo documento decisório de stack, o pacote também passa a apoiar decisões de platform architecture com mais nitidez, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
+O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack e o novo platform blueprint, o pacote também passa a apoiar decisões de platform architecture com mais nitidez, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
