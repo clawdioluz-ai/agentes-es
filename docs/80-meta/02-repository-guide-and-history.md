@@ -82,7 +82,7 @@ README.md
 6. **c6df77a - Add target architecture proposal for orchestration platform**  
    Inclusão de uma proposta de arquitetura-alvo centrada em control plane, workflow backbone, runtimes subordinados, memória governada, policy/approval fabric, observabilidade, extensibilidade e tradeoffs de build versus compose.
 
-7. **12df02c - Add stack decision brief for orchestration platform**  
+7. **90d5046 - Add stack decision brief for orchestration platform**  
    Inclusão de um documento decisório comparando opções de stack composicionais e mais centradas em frameworks de agentes, com recomendação final em favor de uma direção control-plane-first.
 
 ## Resultado final do pacote
