@@ -27,7 +27,7 @@ Esta fase é de análise, estrutura conceitual, taxonomia, arquitetura, governan
 10. Como transformar esse conhecimento em um framework reutilizável?
 
 ## Estrutura
-- `docs/00-foundations/` visão geral, escopo, método e resumo executivo final
+- `docs/00-foundations/` visão geral, escopo, método, resumo executivo final e guia de decisão
 - `docs/10-benchmarking/` análise de empresas, plataformas e operating models
 - `docs/20-sdlc/` mapeamento ponta a ponta do SDLC assistido por IA
 - `docs/30-framework/` proposta consolidada de framework
@@ -50,6 +50,7 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 
 ## Entregáveis finais mais importantes
 - `docs/00-foundations/01-executive-summary.md`
+- `docs/00-foundations/03-decision-guide.md`
 - `docs/30-framework/01-consolidated-framework-proposal.md`
 - `docs/40-orchestration/01-end-to-end-orchestration.md`
 - `docs/40-orchestration/02-operating-models-and-control-plane.md`
@@ -61,7 +62,7 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/80-meta/02-repository-guide-and-history.md`
 
 ## Ordem de leitura recomendada
-1. resumo executivo
+1. resumo executivo e guia de decisão
 2. benchmarking e metodologia
 3. SDLC, artefatos e handoffs
 4. framework e orquestração
@@ -75,6 +76,7 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/40-orchestration/05-platform-stack-decision.md`
 - `docs/40-orchestration/06-platform-blueprint.md`
 - `docs/70-references/01-commented-bibliography.md`
+- `docs/00-foundations/03-decision-guide.md`
 - `docs/80-meta/01-evidence-model.md`
 
 ## Documentos adicionados ou aprofundados anteriormente

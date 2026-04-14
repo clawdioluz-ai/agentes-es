@@ -8,6 +8,7 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 ### 1. Fundamentos
 - `docs/00-foundations/01-executive-summary.md` reúne a tese central, principais achados, recomendação principal e nível de confiança.
 - `docs/00-foundations/02-research-methodology.md` explica recorte, método e critérios de qualidade.
+- `docs/00-foundations/03-decision-guide.md` conecta o material do repositório em uma cadeia explícita de decisão, deixando claro o que já está sustentado, o que ainda é hipótese e quais escolhas devem ficar para a próxima fase.
 
 ### 2. Benchmarking e base factual
 - `docs/10-benchmarking/01-enterprise-benchmarking.md` compara empresas, plataformas e sinais públicos de maturidade.
@@ -41,7 +42,7 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 - `docs/80-meta/01-evidence-model.md` explica a separação entre fato, inferência, proposta conceitual e recomendação futura.
 
 ## Leitura recomendada em cinco passos
-1. Ler o resumo executivo.
+1. Ler o resumo executivo e o guia de decisão.
 2. Ler benchmarking, padrões source-backed e metodologia.
 3. Ler SDLC, handoffs e pontos de controle.
 4. Ler framework e orquestração.
@@ -89,6 +90,9 @@ README.md
 8. **Pending new commit - Add north star platform blueprint**  
    Inclusão de um blueprint final que conecta pesquisa, arquitetura-alvo e decisão de stack em uma visão north star de produto e plataforma, com componentes obrigatórios, componentes opcionais, princípios de desenho, blocos pluggable e sequência recomendada de evolução.
 
+9. **Pending new commit - Add decision guide and strengthen roadmap narrative**  
+   Inclusão de um guia explícito de decisão para ligar evidência, framework, arquitetura e roadmap em uma cadeia única de leitura, além de aprofundamento do roadmap de maturidade com capacidades, riscos dominantes e critérios de passagem entre níveis.
+
 ## Resultado final do pacote
 ### Inferência
-O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack e o novo platform blueprint, o pacote também passa a apoiar decisões de platform architecture com mais nitidez, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
+O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão e o roadmap fortalecido, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de sequenciamento da próxima fase, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
