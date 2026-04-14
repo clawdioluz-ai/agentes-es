@@ -19,17 +19,19 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 - `docs/20-sdlc/01-end-to-end-sdlc-map.md` descreve o SDLC ampliado assistido por IA.
 - `docs/20-sdlc/02-artifacts-handoffs-and-control-points.md` detalha artefatos, handoffs e checkpoints.
 
-### 4. Síntese de framework
+### 4. Síntese de framework e modelo operacional do trabalho
 - `docs/30-framework/01-consolidated-framework-proposal.md` apresenta a proposta consolidada do framework.
 - `docs/30-framework/02-agent-skill-taxonomy.md` organiza a taxonomia de especialistas e capacidades.
+- `docs/30-framework/03-work-management-model.md` define a camada acima do orchestration engine, com operating model orientado a missão, objetos de domínio de primeira classe e ciclos de vida conceituais para mission e task.
 
-### 5. Orquestração e control plane
+### 5. Orquestração, control plane e cockpit operacional
 - `docs/40-orchestration/01-end-to-end-orchestration.md` define a disciplina de coordenação fim a fim.
 - `docs/40-orchestration/02-operating-models-and-control-plane.md` posiciona o control plane e suas camadas.
 - `docs/40-orchestration/03-platform-building-landscape.md` compara blocos de mercado, frameworks e tradeoffs de composição.
 - `docs/40-orchestration/04-target-architecture-proposal.md` propõe a arquitetura-alvo recomendada para uma plataforma de orquestração agentic orientada a software delivery.
 - `docs/40-orchestration/05-platform-stack-decision.md` compara opções viáveis de stack e fecha com uma recomendação explícita de direção arquitetural.
 - `docs/40-orchestration/06-platform-blueprint.md` transforma a pesquisa e a decisão de stack em uma north star unificada de produto e plataforma, deixando claro o que é obrigatório, o que é opcional, o que deve permanecer pluggable e em que sequência a plataforma deve evoluir.
+- `docs/40-orchestration/07-mission-control-ui-and-cockpit.md` define a arquitetura conceitual da mission control UI, incluindo portfólio de missões, kanban, chat contextual, timeline, detail pane, review queue, approval surfaces, observability surfaces e a interação da interface com control plane e orchestration engine.
 
 ### 6. Governança, medição e roadmap
 - `docs/50-governance/01-governance-security-quality-metrics.md` consolida controles, qualidade e risco.
@@ -45,7 +47,7 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 1. Ler o resumo executivo e o guia de decisão.
 2. Ler benchmarking, padrões source-backed e metodologia.
 3. Ler SDLC, handoffs e pontos de controle.
-4. Ler framework e orquestração.
+4. Ler framework, modelo de gestão do trabalho e orquestração.
 5. Fechar com governança, medição, roadmap e referências.
 
 ## Estrutura resumida do repositório
@@ -93,6 +95,9 @@ README.md
 9. **Pending new commit - Add decision guide and strengthen roadmap narrative**  
    Inclusão de um guia explícito de decisão para ligar evidência, framework, arquitetura e roadmap em uma cadeia única de leitura, além de aprofundamento do roadmap de maturidade com capacidades, riscos dominantes e critérios de passagem entre níveis.
 
+10. **Pending new commit - Add work management model and mission control layer**  
+   Inclusão de uma continuação conceitual acima do orchestration engine, cobrindo operating model orientado a missão, objetos de domínio como mission, workflow, task, review, approval, handoff, artifact, agent e evidence, além da arquitetura do cockpit operacional e suas superfícies de supervisão humana.
+
 ## Resultado final do pacote
 ### Inferência
-O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão e o roadmap fortalecido, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de sequenciamento da próxima fase, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
+O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão, o roadmap fortalecido e a nova camada de modelo de gestão do trabalho e mission control, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de operação humana sobre a plataforma, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
