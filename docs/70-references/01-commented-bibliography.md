@@ -124,21 +124,95 @@ Priorizar fontes primárias e materiais corporativos ou técnicos de alta credib
     Uso preferencial: comparar resolução de issues reais em repositórios open source.  
     Limitação: não mede governança corporativa, compliance, handoffs interequipes ou release real.
 
-## E. Fontes complementares de contexto
+## E. Frameworks, runtimes e building blocks para platform building
 
-19. **Google Cloud Blog, Google Cloud AI/ML Privacy Commitment**  
+22. **OpenClaw GitHub README**  
+    Tipo: primária.  
+    URL: https://github.com/openclaw/openclaw  
+    Uso preferencial: entender Gateway como control plane, sessões, tools, eventos, skills, canais e roteamento multiagente local-first.  
+    Limitação: README de produto, muito amplo e com framing favorável.
+
+23. **OpenClaw Docs, Gateway runbook**  
+    Tipo: primária.  
+    URL: https://docs.openclaw.ai/gateway  
+    Uso preferencial: detalhar runtime model, boundary de autenticação, sessões, RPC, APIs compatíveis e superfícies de operação.  
+    Limitação: documentação operacional, não comparação independente.
+
+24. **Langflow Documentation, What is Langflow?**  
+    Tipo: primária.  
+    URL: https://docs.langflow.org/  
+    Uso preferencial: mapear composition layer visual, flows, serving por API, agents e MCP.  
+    Limitação: mais forte para capabilities declaradas do que para governança em larga escala.
+
+25. **LangGraph overview**  
+    Tipo: primária.  
+    URL: https://docs.langchain.com/oss/python/langgraph/overview  
+    Uso preferencial: runtime stateful agentic, durable execution, human-in-the-loop, memória e papel low-level de orquestração.  
+    Limitação: documentação técnica do ecossistema LangChain, não benchmark comparativo.
+
+26. **Temporal Docs, Workflows**  
+    Tipo: primária.  
+    URL: https://docs.temporal.io/workflows  
+    Uso preferencial: sustentar workflow durável, event history, replay e resiliência operacional.  
+    Limitação: fonte forte para orquestração de execução, menos específica para cognição agentic.
+
+27. **Prefect Docs, Introduction**  
+    Tipo: primária.  
+    URL: https://docs.prefect.io/v3/get-started  
+    Uso preferencial: state tracking, event-driven workflows, pause for approval, automations e plataforma Pythonic.  
+    Limitação: posicionamento amplo, mais forte em workflow do que em handoffs multiagente complexos.
+
+28. **OpenAI Agents SDK docs**  
+    Tipo: primária.  
+    URL: https://openai.github.io/openai-agents-python/  
+    Uso preferencial: primitives mínimas para agents, handoffs, guardrails, sessions, MCP e tracing.  
+    Limitação: ecossistema vendor-led, com risco de interpretar primitives locais como arquitetura total.
+
+29. **AutoGen docs**  
+    Tipo: primária.  
+    URL: https://microsoft.github.io/autogen/stable/  
+    Uso preferencial: separar AgentChat, Core e extensões; entender event-driven multi-agent runtime e MCP.  
+    Limitação: a documentação mistura camadas diferentes do framework e exige leitura cuidadosa para não confundir prototipação com operação.
+
+30. **CrewAI docs**  
+    Tipo: primária.  
+    URL: https://docs.crewai.com/  
+    Uso preferencial: comparar agents, crews e flows com guardrails, memory, observability e console enterprise.  
+    Limitação: parte importante da narrativa é comercial.
+
+31. **Mastra docs**  
+    Tipo: primária.  
+    URL: https://mastra.ai/docs  
+    Uso preferencial: observar o padrão moderno de framework TypeScript com Studio, templates e casos de automação de engenharia.  
+    Limitação: ainda menos útil que Temporal ou Prefect para provar governança ou durabilidade de missão crítica.
+
+32. **LangSmith docs, Tracing quickstart e Evaluation concepts**  
+    Tipo: primária.  
+    URLs: https://docs.langchain.com/langsmith/observability-quickstart ; https://docs.langchain.com/langsmith/evaluation-concepts  
+    Uso preferencial: tracing ponta a ponta, spans, datasets, experiments, avaliação offline e online.  
+    Limitação: documentação de plataforma, não comparação independente com outros stacks de observabilidade.
+
+33. **Langfuse Overview**  
+    Tipo: primária.  
+    URL: https://langfuse.com/docs  
+    Uso preferencial: observabilidade open source, sessões, agent graphs, avaliações e integração com OpenTelemetry.  
+    Limitação: descrição de produto e benefícios, sem benchmark independente.
+
+## F. Fontes complementares de contexto
+
+34. **Google Cloud Blog, Google Cloud AI/ML Privacy Commitment**  
     Tipo: quase primária.  
     URL: https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-unveils-ai-and-ml-privacy-commitment  
     Uso preferencial: enquadrar a promessa de privacidade citada pelo Gemini Code Assist.  
     Limitação: compromisso corporativo amplo, não específico de software engineering.
 
-20. **GitHub Docs, Responsible use of GitHub Copilot code review**  
+35. **GitHub Docs, Responsible use of GitHub Copilot code review**  
     Tipo: primária.  
     URL: https://docs.github.com/en/copilot/responsible-use/code-review  
     Uso preferencial: limitações conhecidas, cautelas de uso e responsabilidade humana.  
     Limitação: documentação de safeguards, não análise independente.
 
-21. **GitLab Duo Agent Platform overview**  
+36. **GitLab Duo Agent Platform overview**  
     Tipo: primária.  
     URL: https://about.gitlab.com/gitlab-duo-agent-platform/  
     Uso preferencial: contexto adicional para nomenclatura de agentes e posicionamento da plataforma.  

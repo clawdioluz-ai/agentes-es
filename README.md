@@ -31,7 +31,7 @@ Esta fase é de análise, estrutura conceitual, taxonomia, arquitetura, governan
 - `docs/10-benchmarking/` análise de empresas, plataformas e operating models
 - `docs/20-sdlc/` mapeamento ponta a ponta do SDLC assistido por IA
 - `docs/30-framework/` proposta consolidada de framework
-- `docs/40-orchestration/` orquestração fim a fim e control plane
+- `docs/40-orchestration/` orquestração fim a fim, control plane e panorama de platform building
 - `docs/50-governance/` governança, segurança, qualidade e métricas
 - `docs/60-roadmap/` roadmap, hipóteses e questões abertas
 - `docs/70-references/` bibliografia comentada e lista curta de referências principais
@@ -53,6 +53,7 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/30-framework/01-consolidated-framework-proposal.md`
 - `docs/40-orchestration/01-end-to-end-orchestration.md`
 - `docs/40-orchestration/02-operating-models-and-control-plane.md`
+- `docs/40-orchestration/03-platform-building-landscape.md`
 - `docs/70-references/02-main-references.md`
 - `docs/80-meta/02-repository-guide-and-history.md`
 
@@ -74,4 +75,5 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/10-benchmarking/03-source-backed-patterns.md`
 - `docs/20-sdlc/02-artifacts-handoffs-and-control-points.md`
 - `docs/40-orchestration/02-operating-models-and-control-plane.md`
+- `docs/40-orchestration/03-platform-building-landscape.md`
 - `docs/50-governance/02-measurement-benchmarking-and-evidence.md`
