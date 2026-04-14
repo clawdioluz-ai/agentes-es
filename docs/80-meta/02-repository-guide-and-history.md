@@ -81,6 +81,9 @@ README.md
 
 ## Histórico consolidado desta fase
 
+### Nota de leitura
+Este histórico resume os commits editoriais mais relevantes para o pacote atual. Ele não substitui `git log`, mas evita que a narrativa do repositório fique desatualizada ou dependa de marcos temporários vagos.
+
 1. **a4f33ec - docs: initialize research repository for end-to-end AI SDLC orchestration**  
    Estrutura inicial do pacote, pergunta de pesquisa, escopo, capítulos-base e primeira organização temática.
 
@@ -96,28 +99,28 @@ README.md
 5. **ec8b0a8 - Strengthen framework orchestration and evidence model**  
    Consolidação do framework, refinamento dos documentos de orquestração e explicitação do modelo de evidência.
 
-6. **c6df77a - Add target architecture proposal for orchestration platform**  
+6. **c6df77a - docs: add target architecture proposal for orchestration platform**  
    Inclusão de uma proposta de arquitetura-alvo centrada em control plane, workflow backbone, runtimes subordinados, memória governada, policy/approval fabric, observabilidade, extensibilidade e tradeoffs de build versus compose.
 
-7. **90d5046 - Add stack decision brief for orchestration platform**  
+7. **90d5046 - docs: add stack decision brief for orchestration platform**  
    Inclusão de um documento decisório comparando opções de stack composicionais e mais centradas em frameworks de agentes, com recomendação final em favor de uma direção control-plane-first.
 
-8. **Pending new commit - Add north star platform blueprint**  
+8. **78ff0a4 - docs: add north star platform blueprint**  
    Inclusão de um blueprint final que conecta pesquisa, arquitetura-alvo e decisão de stack em uma visão north star de produto e plataforma, com componentes obrigatórios, componentes opcionais, princípios de desenho, blocos pluggable e sequência recomendada de evolução.
 
-9. **Pending new commit - Add decision guide and strengthen roadmap narrative**  
+9. **493b90a - docs: strengthen decision narrative and maturity roadmap**  
    Inclusão de um guia explícito de decisão para ligar evidência, framework, arquitetura e roadmap em uma cadeia única de leitura, além de aprofundamento do roadmap de maturidade com capacidades, riscos dominantes e critérios de passagem entre níveis.
 
-10. **Pending new commit - Add work management model and mission control layer**  
+10. **fdab9db - docs: add work management model and mission control layer**  
    Inclusão de uma continuação conceitual acima do orchestration engine, cobrindo operating model orientado a missão, objetos de domínio como mission, workflow, task, review, approval, handoff, artifact, agent e evidence, além da arquitetura do cockpit operacional e suas superfícies de supervisão humana.
 
-11. **Pending new commit - Add product-facing mission control experience vision**  
+11. **9d10755 - docs: add mission control product experience vision**  
    Inclusão de uma visão conceitual mais orientada a produto para a mission control, cobrindo telas principais, jornadas de uso, fluxos entre superfícies e wireframes conceituais para inbox, board, mission detail, chat contextual, review, approval, observability e navegação de artefatos e evidências.
 
-12. **Pending new commit - Add conceptual PRD for orchestration platform product**  
+12. **3e87843 - docs: add conceptual PRD for orchestration platform**  
    Inclusão de um PRD conceitual para a plataforma de orquestração, consolidando visão de produto, problema, segmentos de usuário, jobs to be done, proposta de valor, capacidades centrais, objeto de domínio, não objetivos, restrições, métricas, fases de rollout e riscos estratégicos.
 
-13. **Pending new commit - Add initial strategic ADR set for the orchestration platform**  
+13. **b397f4b - docs: add initial strategic ADR set**  
    Inclusão de um conjunto inicial de ADRs conceituais para fixar as decisões mais estruturantes já implicadas pela pesquisa, cobrindo postura control-plane-first, modelo mission-workflow-task, governança human-in-the-loop, estratégia composicional de stack, runtimes especialistas pluggable, evidência e auditabilidade como preocupações de primeira classe e UI como mission control.
 
 ## Resultado final do pacote
