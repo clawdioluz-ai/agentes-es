@@ -144,6 +144,9 @@ Produzir um pacote pequeno com:
 5. um mapa de ownership e superfícies operacionais
 6. ADRs e quality scenarios como anexos vivos, não como apêndices esquecidos
 
+### Materialização inicial nesta seção do repositório
+A primeira concretização desse pacote estrutural agora está em `docs/100-software-design/07-c4-conceptual-architecture.md`, com diagramas Mermaid em nível de system context, container view e decomposição conceitual de componentes críticos.
+
 ## Conclusão
 ### Inferência
 O ponto central não é escolher um framework documental “vencedor”. É garantir que a plataforma possa ser lida por diferentes públicos sem perder sua tese central: coordenação governada, backbone durável, especialistas subordinados e supervisão humana seletiva.
@@ -155,3 +158,4 @@ O ponto central não é escolher um framework documental “vencedor”. É gara
 - `docs/40-orchestration/04-target-architecture-proposal.md`
 - `docs/40-orchestration/07-mission-control-ui-and-cockpit.md`
 - `docs/40-orchestration/09-orchestration-platform-conceptual-prd.md`
+- `docs/100-software-design/07-c4-conceptual-architecture.md`

@@ -31,6 +31,7 @@ Quais artefatos de design devem existir para traduzir a tese control-plane-first
 - `04-quality-attribute-scenarios.md`: primeiros cenários de atributos de qualidade para orientar revisão futura
 - `05-conceptual-domain-model.md`: modelo de domínio conceitual orientado a missão, fluxo, decisão e evidência
 - `06-decision-backlog.md`: backlog inicial de decisões arquiteturalmente significativas
+- `07-c4-conceptual-architecture.md`: pacote inicial de diagramas C4 conceituais com system context, container view e decomposição de componentes críticos
 
 ## O que esta seção acrescenta ao repositório
 ### Proposta conceitual
@@ -50,3 +51,6 @@ Enquanto `docs/40-orchestration/` descreve a forma recomendada da plataforma e `
 
 ## Status inicial
 A seção já contém uma primeira rodada de síntese conceitual, suficiente para orientar uma próxima fase de documentação arquitetural sem sair do caráter analítico do repositório.
+
+### Atualização editorial
+A seção agora também inclui uma primeira tradução explícita da tese arquitetural para diagramas em níveis do C4 Model, mantendo a documentação em linguagem conceitual e não implementacional.

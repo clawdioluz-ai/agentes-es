@@ -63,6 +63,7 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 - `docs/100-software-design/04-quality-attribute-scenarios.md` transforma princípios em cenários de qualidade orientadores.
 - `docs/100-software-design/05-conceptual-domain-model.md` consolida o modelo conceitual orientado a missão, fluxo, decisão e evidência.
 - `docs/100-software-design/06-decision-backlog.md` explicita as decisões já firmes e as decisões ainda abertas da próxima fase.
+- `docs/100-software-design/07-c4-conceptual-architecture.md` adiciona uma primeira materialização C4 da arquitetura conceitual, com diagramas Mermaid para contexto, contêineres conceituais e decomposição de componentes críticos.
 
 ## Leitura recomendada em cinco passos
 1. Ler o resumo executivo e o guia de decisão.
@@ -136,6 +137,9 @@ Este histórico resume os commits editoriais mais relevantes para o pacote atual
 14. **42250a5 - docs: add software design documentation scaffold**  
    Inclusão de uma nova seção `docs/100-software-design/` como ponte entre a pesquisa consolidada e a próxima fase de desenho de software, com um pacote inicial de artefatos para contexto, visões, qualidade, domínio conceitual e backlog decisório.
 
+15. **Atualização editorial recente - ampliação da seção de software design com C4 conceitual**  
+   Inclusão de um pacote inicial de diagramas C4 em Mermaid para documentar, em nível conceitual, o system context, a visão de contêineres e a decomposição dos componentes mais críticos do control plane e do tecido de governança/evidência, sem sair das restrições não implementacionais desta fase.
+
 ## Resultado final do pacote
 ### Inferência
-O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão, o roadmap fortalecido, a nova camada de modelo de gestão do trabalho e mission control, a visão mais orientada à experiência de produto da interface, o PRD conceitual consolidando a visão do produto, o conjunto inicial de ADRs estratégicas e agora a nova seção de software design como ponte editorial para a próxima fase, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de operação humana e definição de produto, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
+O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão, o roadmap fortalecido, a nova camada de modelo de gestão do trabalho e mission control, a visão mais orientada à experiência de produto da interface, o PRD conceitual consolidando a visão do produto, o conjunto inicial de ADRs estratégicas, a seção de software design como ponte editorial para a próxima fase e agora uma primeira tradução explícita dessa tese em diagramas C4 conceituais, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de operação humana e definição de produto, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.

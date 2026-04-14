@@ -79,6 +79,7 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - [`docs/100-software-design/04-quality-attribute-scenarios.md`](docs/100-software-design/04-quality-attribute-scenarios.md)
 - [`docs/100-software-design/05-conceptual-domain-model.md`](docs/100-software-design/05-conceptual-domain-model.md)
 - [`docs/100-software-design/06-decision-backlog.md`](docs/100-software-design/06-decision-backlog.md)
+- [`docs/100-software-design/07-c4-conceptual-architecture.md`](docs/100-software-design/07-c4-conceptual-architecture.md)
 
 ## Ordem de leitura recomendada
 1. resumo executivo e guia de decisão
