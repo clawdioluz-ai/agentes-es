@@ -36,6 +36,7 @@ Esta fase é de análise, estrutura conceitual, taxonomia, arquitetura, governan
 - `docs/60-roadmap/` roadmap, hipóteses e questões abertas
 - `docs/70-references/` bibliografia comentada e lista curta de referências principais
 - `docs/80-meta/` distinção entre fato, inferência, proposta, guia do repositório e histórico consolidado
+- `docs/90-adrs/` registro curto das decisões arquiteturais e de produto mais estruturantes para a próxima fase
 
 ## Foco analítico obrigatório
 - orquestração fim a fim
@@ -64,13 +65,20 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/40-orchestration/09-orchestration-platform-conceptual-prd.md`
 - `docs/70-references/02-main-references.md`
 - `docs/80-meta/02-repository-guide-and-history.md`
+- `docs/90-adrs/ADR-001-control-plane-first-posture.md`
+- `docs/90-adrs/ADR-002-mission-workflow-task-object-model.md`
+- `docs/90-adrs/ADR-003-human-in-the-loop-governance.md`
+- `docs/90-adrs/ADR-004-compositional-stack-strategy.md`
+- `docs/90-adrs/ADR-005-pluggable-specialist-runtimes.md`
+- `docs/90-adrs/ADR-006-evidence-and-auditability-first-class.md`
+- `docs/90-adrs/ADR-007-ui-as-mission-control.md`
 
 ## Ordem de leitura recomendada
 1. resumo executivo e guia de decisão
 2. benchmarking e metodologia
 3. SDLC, artefatos e handoffs
 4. framework, gestão do trabalho e orquestração
-5. governança, medição, roadmap e referências
+5. governança, ADRs estratégicas, roadmap e referências
 
 ## Documentos reforçados nesta etapa
 - `docs/10-benchmarking/01-enterprise-benchmarking.md`
@@ -92,3 +100,11 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/30-framework/03-work-management-model.md`
 - `docs/40-orchestration/07-mission-control-ui-and-cockpit.md`
 - `docs/40-orchestration/08-mission-control-product-experience.md`
+- `docs/90-adrs/README.md`
+- `docs/90-adrs/ADR-001-control-plane-first-posture.md`
+- `docs/90-adrs/ADR-002-mission-workflow-task-object-model.md`
+- `docs/90-adrs/ADR-003-human-in-the-loop-governance.md`
+- `docs/90-adrs/ADR-004-compositional-stack-strategy.md`
+- `docs/90-adrs/ADR-005-pluggable-specialist-runtimes.md`
+- `docs/90-adrs/ADR-006-evidence-and-auditability-first-class.md`
+- `docs/90-adrs/ADR-007-ui-as-mission-control.md`

@@ -45,6 +45,16 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 - `docs/70-references/02-main-references.md` contém a lista curta de referências principais.
 - `docs/80-meta/01-evidence-model.md` explica a separação entre fato, inferência, proposta conceitual e recomendação futura.
 
+### 8. ADRs estratégicas para a próxima fase
+- `docs/90-adrs/README.md` organiza o conjunto inicial de ADRs.
+- `docs/90-adrs/ADR-001-control-plane-first-posture.md` fixa a postura control-plane-first.
+- `docs/90-adrs/ADR-002-mission-workflow-task-object-model.md` formaliza mission, workflow e task como objetos centrais.
+- `docs/90-adrs/ADR-003-human-in-the-loop-governance.md` estabelece supervisão humana como primitive.
+- `docs/90-adrs/ADR-004-compositional-stack-strategy.md` consolida a direção composicional da plataforma.
+- `docs/90-adrs/ADR-005-pluggable-specialist-runtimes.md` mantém runtimes de especialistas como camada pluggable.
+- `docs/90-adrs/ADR-006-evidence-and-auditability-first-class.md` torna evidência e auditabilidade preocupações centrais.
+- `docs/90-adrs/ADR-007-ui-as-mission-control.md` posiciona a UI como cockpit operacional, não apenas chat.
+
 ## Leitura recomendada em cinco passos
 1. Ler o resumo executivo e o guia de decisão.
 2. Ler benchmarking, padrões source-backed e metodologia.
@@ -66,6 +76,7 @@ README.md
   /60-roadmap
   /70-references
   /80-meta
+  /90-adrs
 ```
 
 ## Histórico consolidado desta fase
@@ -106,6 +117,9 @@ README.md
 12. **Pending new commit - Add conceptual PRD for orchestration platform product**  
    Inclusão de um PRD conceitual para a plataforma de orquestração, consolidando visão de produto, problema, segmentos de usuário, jobs to be done, proposta de valor, capacidades centrais, objeto de domínio, não objetivos, restrições, métricas, fases de rollout e riscos estratégicos.
 
+13. **Pending new commit - Add initial strategic ADR set for the orchestration platform**  
+   Inclusão de um conjunto inicial de ADRs conceituais para fixar as decisões mais estruturantes já implicadas pela pesquisa, cobrindo postura control-plane-first, modelo mission-workflow-task, governança human-in-the-loop, estratégia composicional de stack, runtimes especialistas pluggable, evidência e auditabilidade como preocupações de primeira classe e UI como mission control.
+
 ## Resultado final do pacote
 ### Inferência
-O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão, o roadmap fortalecido, a nova camada de modelo de gestão do trabalho e mission control, a visão mais orientada à experiência de produto da interface e agora um PRD conceitual consolidando a visão do produto da plataforma, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de operação humana e definição de produto, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
+O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão, o roadmap fortalecido, a nova camada de modelo de gestão do trabalho e mission control, a visão mais orientada à experiência de produto da interface, o PRD conceitual consolidando a visão do produto e agora o conjunto inicial de ADRs estratégicas, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de operação humana e definição de produto, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
