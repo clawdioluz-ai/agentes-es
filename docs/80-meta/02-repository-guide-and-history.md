@@ -32,6 +32,7 @@ Oferecer uma visão curta e final de como ler este repositório como pacote de p
 - `docs/40-orchestration/05-platform-stack-decision.md` compara opções viáveis de stack e fecha com uma recomendação explícita de direção arquitetural.
 - `docs/40-orchestration/06-platform-blueprint.md` transforma a pesquisa e a decisão de stack em uma north star unificada de produto e plataforma, deixando claro o que é obrigatório, o que é opcional, o que deve permanecer pluggable e em que sequência a plataforma deve evoluir.
 - `docs/40-orchestration/07-mission-control-ui-and-cockpit.md` define a arquitetura conceitual da mission control UI, incluindo portfólio de missões, kanban, chat contextual, timeline, detail pane, review queue, approval surfaces, observability surfaces e a interação da interface com control plane e orchestration engine.
+- `docs/40-orchestration/08-mission-control-product-experience.md` traduz a arquitetura do cockpit em uma visão de experiência de produto, com telas principais, jornadas, fluxos conceituais e wireframes textuais para mission inbox, portfolio, mission detail, chat contextual, review queue, approval center, observability e artifacts/evidence.
 
 ### 6. Governança, medição e roadmap
 - `docs/50-governance/01-governance-security-quality-metrics.md` consolida controles, qualidade e risco.
@@ -98,6 +99,9 @@ README.md
 10. **Pending new commit - Add work management model and mission control layer**  
    Inclusão de uma continuação conceitual acima do orchestration engine, cobrindo operating model orientado a missão, objetos de domínio como mission, workflow, task, review, approval, handoff, artifact, agent e evidence, além da arquitetura do cockpit operacional e suas superfícies de supervisão humana.
 
+11. **Pending new commit - Add product-facing mission control experience vision**  
+   Inclusão de uma visão conceitual mais orientada a produto para a mission control, cobrindo telas principais, jornadas de uso, fluxos entre superfícies e wireframes conceituais para inbox, board, mission detail, chat contextual, review, approval, observability e navegação de artefatos e evidências.
+
 ## Resultado final do pacote
 ### Inferência
-O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão, o roadmap fortalecido e a nova camada de modelo de gestão do trabalho e mission control, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de operação humana sobre a plataforma, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.
+O repositório agora se lê como uma pesquisa estratégica estruturada, com separação mais clara entre base factual, síntese analítica, proposta conceitual e recomendações futuras. Com a proposta de arquitetura-alvo, o documento decisório de stack, o platform blueprint, o novo guia de decisão, o roadmap fortalecido, a nova camada de modelo de gestão do trabalho e mission control, e agora a visão mais orientada à experiência de produto da interface, o pacote passa a apoiar melhor tanto decisões de platform architecture quanto decisões de operação humana sobre a plataforma, ainda sem entrar em implementação. O pacote permanece deliberadamente não implementacional: não há protótipo, automação executável ou especificação técnica final nesta fase.

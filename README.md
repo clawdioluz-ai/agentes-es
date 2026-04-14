@@ -60,6 +60,7 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/40-orchestration/05-platform-stack-decision.md`
 - `docs/40-orchestration/06-platform-blueprint.md`
 - `docs/40-orchestration/07-mission-control-ui-and-cockpit.md`
+- `docs/40-orchestration/08-mission-control-product-experience.md`
 - `docs/70-references/02-main-references.md`
 - `docs/80-meta/02-repository-guide-and-history.md`
 
@@ -89,3 +90,4 @@ Repositório agora contém um pacote de pesquisa estruturado, source-backed e co
 - `docs/50-governance/02-measurement-benchmarking-and-evidence.md`
 - `docs/30-framework/03-work-management-model.md`
 - `docs/40-orchestration/07-mission-control-ui-and-cockpit.md`
+- `docs/40-orchestration/08-mission-control-product-experience.md`
