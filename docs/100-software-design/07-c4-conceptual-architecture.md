@@ -183,9 +183,25 @@ Esta documentação ainda não define:
 - modelo definitivo de dados
 - escolha final entre frameworks substituíveis de runtime, workflow ou observabilidade
 
+## Próximo nível de detalhamento
+### Navegação recomendada
+Este documento funciona como visão-mãe do pacote C4. O aprofundamento da container view e dos fluxos dinâmicos está distribuído em:
+- `docs/100-software-design/08-c4-container-index.md`
+- `docs/100-software-design/09-c4-container-mission-control-ui.md`
+- `docs/100-software-design/10-c4-container-control-plane.md`
+- `docs/100-software-design/11-c4-container-workflow-backbone.md`
+- `docs/100-software-design/12-c4-container-runtime-de-especialistas.md`
+- `docs/100-software-design/13-c4-container-context-and-memory-fabric.md`
+- `docs/100-software-design/14-c4-container-policy-and-approval-fabric.md`
+- `docs/100-software-design/15-c4-container-observability-evidence-evaluation.md`
+- `docs/100-software-design/16-c4-container-integration-gateway.md`
+- `docs/100-software-design/17-c4-runtime-views.md`
+
 ## Conclusão
 ### Proposta conceitual
 A principal contribuição do C4 nesta fase é **tornar a arquitetura legível em níveis**, preservando a tese do repositório: plataforma de orquestração governada, control-plane-first, com backbone durável, especialistas subordinados, memória governada, policy explícita e evidência de primeira classe.
+
+O pacote agora também aprofunda o nível de contêineres e acrescenta runtime views para os fluxos críticos, aproximando estrutura e comportamento sem ainda cair em desenho técnico prematuro.
 
 ## Referências
 - `docs/100-software-design/02-system-context-and-boundaries.md`
