@@ -31,7 +31,17 @@ Quais artefatos de design devem existir para traduzir a tese control-plane-first
 - `04-quality-attribute-scenarios.md`: primeiros cenários de atributos de qualidade para orientar revisão futura
 - `05-conceptual-domain-model.md`: modelo de domínio conceitual orientado a missão, fluxo, decisão e evidência
 - `06-decision-backlog.md`: backlog inicial de decisões arquiteturalmente significativas
-- `07-c4-conceptual-architecture.md`: pacote inicial de diagramas C4 conceituais com system context, container view e decomposição de componentes críticos
+- `07-c4-conceptual-architecture.md`: visão-mãe da arquitetura C4 conceitual com system context, container view e decomposição de componentes críticos
+- `08-c4-container-index.md`: índice navegável dos contêineres principais e suas relações
+- `09-c4-container-mission-control-ui.md`: aprofundamento do contêiner de interface operacional e supervisão humana
+- `10-c4-container-control-plane.md`: aprofundamento do núcleo semântico, de coordenação e decisão
+- `11-c4-container-workflow-backbone.md`: aprofundamento da camada de execução durável
+- `12-c4-container-runtime-de-especialistas.md`: aprofundamento do contêiner de execução cognitiva sob contrato
+- `13-c4-container-context-and-memory-fabric.md`: aprofundamento do tecido de contexto, retrieval e memória governada
+- `14-c4-container-policy-and-approval-fabric.md`: aprofundamento da camada transversal de policy, alçadas e approvals
+- `15-c4-container-observability-evidence-evaluation.md`: aprofundamento de tracing, evidência, auditoria e avaliação
+- `16-c4-container-integration-gateway.md`: aprofundamento da borda de integração com o SDLC e sistemas corporativos
+- `17-c4-runtime-views.md`: runtime views conceituais para missão, decomposição, delegação, review, approval e conclusão
 
 ## O que esta seção acrescenta ao repositório
 ### Proposta conceitual
@@ -53,4 +63,4 @@ Enquanto `docs/40-orchestration/` descreve a forma recomendada da plataforma e `
 A seção já contém uma primeira rodada de síntese conceitual, suficiente para orientar uma próxima fase de documentação arquitetural sem sair do caráter analítico do repositório.
 
 ### Atualização editorial
-A seção agora também inclui uma primeira tradução explícita da tese arquitetural para diagramas em níveis do C4 Model, mantendo a documentação em linguagem conceitual e não implementacional.
+A seção agora também inclui uma tradução explícita da tese arquitetural para diagramas em níveis do C4 Model, um índice de contêineres com dossiers dedicados por bloco principal e runtime views para os fluxos críticos da plataforma, mantendo a documentação em linguagem conceitual e não implementacional.
